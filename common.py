@@ -1,5 +1,7 @@
 # common.py
 
+from network import WLAN, STA_IF
+
 def connect_to_wifi(ssid, password):
     wlan = WLAN(STA_IF)
     wlan.active(True)

@@ -1,7 +1,6 @@
 # garage_opener.py
 
 from machine import Pin
-from network import WLAN, STA_IF
 from time import sleep
 
 # from library installed by: upip.install('micropython-umqtt.simple')
